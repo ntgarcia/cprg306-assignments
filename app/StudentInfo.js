@@ -2,10 +2,13 @@ import Link from "next/link";
 
 export default function StudentInfo() {
   return (
-    <main>
+    <main className="grid gap-2 p-5 m-4">
       <h1>Nathan Garcia</h1>
       <h2>CPRG 306 A</h2>
-      <Link href="https://github.com/ntgarcia/cprg306-assignments">
+      <Link
+        href="https://github.com/ntgarcia/cprg306-assignments"
+        className="no-underline hover:underline"
+      >
         GitHub Repository
       </Link>
     </main>
