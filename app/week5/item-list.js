@@ -31,7 +31,7 @@ export default function ItemList() {
         <button
           onClick={() => setSortBy("name")}
           className={`p-5 bg-neutral-900 rounded-3xl m-2 w-36 text-center ${
-            sortBy === "name" ? "bg-blue-500" : "bg-neutral-900"
+            sortBy === "name" ? "bg-blue-700" : "bg-neutral-900"
           }
         }`}
         >
@@ -40,7 +40,7 @@ export default function ItemList() {
         <button
           onClick={() => setSortBy("category")}
           className={`p-5 bg-neutral-900 rounded-3xl m-2 w-36 text-center ${
-            sortBy === "category" ? "bg-blue-500" : "bg-neutral-900"
+            sortBy === "category" ? "bg-blue-700" : "bg-neutral-900"
           }
         }`}
         >
