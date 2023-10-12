@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function StudentInfo() {
   return (
-    <main className="grid gap-2 p-5 m-4">
+    <main className="flex space-x-4 mx-1 my-5 gap-4">
       <h1>Nathan Garcia</h1>
       <h2>CPRG 306 A</h2>
       <Link

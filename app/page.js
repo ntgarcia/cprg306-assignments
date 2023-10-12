@@ -6,9 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between text-sm grid gap-2">
         <h1 className="text-4xl">CPRG 306: Web Development 2 - Assignments</h1>
-
         <StudentInfo />
-
         <div className="flex">
           {" "}
           <Link
@@ -30,6 +28,13 @@ export default function Home() {
             className="p-5 bg-neutral-900 rounded-3xl m-2 w-40 text-center"
           >
             Week 4
+          </Link>
+          <br />
+          <Link
+            href="week5"
+            className="p-5 bg-neutral-900 rounded-3xl m-2 w-40 text-center"
+          >
+            Week 5
           </Link>
         </div>
       </div>
