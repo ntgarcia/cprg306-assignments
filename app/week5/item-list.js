@@ -51,7 +51,7 @@ export default function ItemList() {
       <ul className="grid grid-cols-1 w-80">
         {data.map((data) => (
           <Item
-            id={data.id}
+            key={post.id}
             name={data.name}
             quantity={data.quantity}
             category={data.category}
