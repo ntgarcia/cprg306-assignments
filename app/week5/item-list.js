@@ -1,12 +1,12 @@
 "use client";
 
-// setup itemlist component
+// setup item list component
 import { useState } from "react";
 import Item from "./item";
 import data from "./items.json";
 
 export default function ItemList() {
-  // intialize state variable
+  // initialize state variable
   const [sortBy, setSortBy] = useState("name");
 
   // sort the items
