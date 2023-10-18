@@ -53,13 +53,16 @@ export default function NewItem() {
     <section>
       <div></div>
       <div className="grid place-content-center">
-        <form onSubmit={handleSubmit} className="flex flex-row w-1/3 gap-3">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-row w-1/3 gap-3"
+        >
           <input
             required
             onChange={handleNameChange}
             value={name}
             placeholder="Product Name"
-            className="bg-neutral-950 rounded-xl p-3 flex-auto"
+            className="bg-slate-300 dark:bg-neutral-900 rounded-xl p-3 flex-auto"
           />
           <input
             required
@@ -70,20 +73,24 @@ export default function NewItem() {
             max="99"
             onChange={handleQuantityChange}
             value={quantity}
-            className="bg-neutral-950 rounded-xl p-3 flex-auto"
+            className="bg-slate-300 dark:bg-neutral-900 rounded-xl p-3 flex-auto"
           />
           <select
             required
             onChange={handleCategoryChange}
             value={category}
-            className="bg-neutral-950 rounded-xl p-3 w-40 flex-auto"
+            className="bg-slate-300 dark:bg-neutral-900 rounded-xl p-3 w-40 flex-auto"
           >
             <option value="Produce">Produce</option>
             <option value="Dairy">Dairy</option>
             <option value="Bakery">Bakery</option>
             <option value="Meat">Meat</option>
-            <option value="Frozen Foods">Frozen Foods</option>
-            <option value="Canned Goods">Canned Goods</option>
+            <option value="Frozen Foods">
+              Frozen Foods
+            </option>
+            <option value="Canned Goods">
+              Canned Goods
+            </option>
             <option value="Dry Goods">Dry Goods</option>
             <option value="Beverages">Beverages</option>
             <option value="Snacks">Snacks</option>
@@ -93,7 +100,7 @@ export default function NewItem() {
 
           <button
             type="submit"
-            className="bg-neutral-600 rounded-full p-3 w-10"
+            className="bg-slate-400 dark:bg-neutral-600 rounded-full p-3 w-10"
           >
             +
           </button>

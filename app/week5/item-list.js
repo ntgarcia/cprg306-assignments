@@ -30,19 +30,23 @@ export default function ItemList() {
         <h1 className="text-xl">Sort by:</h1>
         <button
           onClick={() => setSortBy("name")}
-          className={`p-5 bg-neutral-900 rounded-3xl m-2 w-36 text-center ${
-            sortBy === "name" ? "bg-blue-500" : "bg-neutral-900"
+          className={`p-5 rounded-3xl m-2 w-36 text-center ${
+            sortBy === "name"
+              ? "bg-blue-500 text-white"
+              : "bg-slate-300 dark:bg-neutral-900"
           }
-        }`}
+        `}
         >
           Name
         </button>
         <button
           onClick={() => setSortBy("category")}
-          className={`p-5 bg-neutral-900 rounded-3xl m-2 w-36 text-center ${
-            sortBy === "category" ? "bg-blue-500" : "bg-neutral-900"
+          className={`p-5 rounded-3xl m-2 w-36 text-center ${
+            sortBy === "category"
+              ? "bg-blue-500 text-white"
+              : "bg-slate-300 dark:bg-neutral-900"
           }
-        }`}
+        `}
         >
           Category
         </button>
