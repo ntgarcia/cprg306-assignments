@@ -43,6 +43,13 @@ export default function Home() {
           >
             Week 6
           </Link>
+          <br />
+          <Link
+            href="week7"
+            className="p-5 bg-slate-300 dark:bg-neutral-900 rounded-3xl m-2 w-40 text-center"
+          >
+            Week 7
+          </Link>
         </div>
       </div>
     </main>
